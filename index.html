@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+</head>
+<body>
+<div id="loading-page" class="loading-page">
+  <div class="counter">
+    <p id="cargando">
+      <spam>
+      Loading...</p>
+    <p id="nointernet" onClick="window.location.reload()">No internet connection
+      <spam>
+      Reload ↺</p>
+    <h1>0%</h1>
+    <hr/>
+  </div>
+</div>
+<img id="musicq" alt="" class="musicq"/>
+<div class="ui-page ui-page-active" id="page-snaplistview">
+  <div class="ui-content" >
+    <div id="main-container" >
+      <div id="music-player"> </div>
+    </div>
+    <input autocomplete="off" maxlength="12" autofocus style="text-transform:uppercase" type="text" id="buscar" placeholder=" Search..."/>
+    <ul  class="ui-listview" id="music-playlist">
+      <center class="li h5" id="sin">
+        No Found
+      </center>
+      <center class="li h5" id="mt" onclick="mt()">
+        Show All
+      </center>
+    </ul>
+  </div>
+</div>
+<script src="./js/jquery.min.js"></script> 
+<script src="./js/script.js"></script> 
+<script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script> 
+<script type="text/javascript" src="js/circle-helper.js"></script>
+</body>
+</html>

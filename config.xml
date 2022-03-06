@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/radiosunion" version="1.0.4" viewmodes="maximized">
+    <access origin="https://20133.live.streamtheworld.com/LOS40AAC.aac" subdomains="true"></access>
+    <access origin="http://21223.live.streamtheworld.com/KEBUENA_ES_SC" subdomains="true"></access>
+    <access origin="http://srv2.plugstreaming.com:8020/stream" subdomains="true"></access>
+    <access origin="*" subdomains="true"></access>
+    <access origin="https://20133.live.streamtheworld.com/LOS40AAC.aac" subdomains="true"></access>
+    <access origin="http://physical-authority.surge.sh" subdomains="true"></access>
+    <access origin="https://5dd1894f15bbc2001448d28e.mockapi.io" subdomains="true"></access>
+    <access origin="https://edyoda.s3.ap-south-1.amazonaws.com/" subdomains="true"></access>
+    <access origin="https://kit.fontawesome.com" subdomains="true"></access>
+    <tizen:application id="wiq084e8M9.radiosunion" package="wiq084e8M9" required_version="2.3"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <feature name="tizen.org/feature/network.wifi"/>
+    <icon src="icon.png"/>
+    <name>RADIOS</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="enable" encryption="enable" hwkey-event="enable"/>
+</widget>
